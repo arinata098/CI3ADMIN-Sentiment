@@ -1,0 +1,1 @@
+cmd /c "docker exec -i $mysql_container mysql -uuser -ppassword dbname < data.sql"
